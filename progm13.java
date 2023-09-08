@@ -1,7 +1,9 @@
-class inst
+class create
 {
+    String s="Tanushree";
     public static void main(String[]args)
     {
-        inst obj1=new inst();
+        create obj=new create();
+        System.out.println(obj.s);
     }
-} 
+}
